@@ -1,4 +1,8 @@
-# react-helmet-async
+# react-v19-helmet-async
+
+Forked from [staylor/react-helmet-async](https://github.com/staylor/react-helmet-async) under the Apache-2.0 license by Yassine Boumiza in 2025. Extended compatibility to React v18+ including React v19.0.0 and v19.1.0.
+
+Repository: https://github.com/advisely/react-v19-helmet-async
 
 [![CircleCI](https://circleci.com/gh/staylor/react-helmet-async.svg?style=svg)](https://circleci.com/gh/staylor/react-helmet-async)
 
@@ -201,4 +205,4 @@ const { helmet } = helmetData.context;
 
 ## License
 
-Licensed under the Apache 2.0 License, Copyright © 2018 Scott Taylor
+Licensed under the Apache 2.0 License, Copyright 2018 Scott Taylor
