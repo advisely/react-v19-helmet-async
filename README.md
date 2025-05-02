@@ -4,8 +4,6 @@ Forked from [staylor/react-helmet-async](https://github.com/staylor/react-helmet
 
 Repository: https://github.com/advisely/react-v19-helmet-async
 
-[![CircleCI](https://circleci.com/gh/staylor/react-helmet-async.svg?style=svg)](https://circleci.com/gh/staylor/react-helmet-async)
-
 [Announcement post on Times Open blog](https://open.nytimes.com/the-future-of-meta-tag-management-for-modern-react-development-ec26a7dc9183)
 
 This package is a fork of [React Helmet](https://github.com/nfl/react-helmet).
@@ -13,7 +11,16 @@ This package is a fork of [React Helmet](https://github.com/nfl/react-helmet).
 
 `react-helmet` relies on `react-side-effect`, which is not thread-safe. If you are doing anything asynchronous on the server, you need Helmet to encapsulate data on a per-request basis, this package does just that.
 
-## Usage
+## Coverage 📊
+
+| Metric     | %      |
+|------------|--------|
+| Statements | 97.75% |
+| Branches   | 96.30% |
+| Functions  | 97.01% |
+| Lines      | 97.75% |
+
+## Usage 🚀
 
 **New is 1.0.0:** No more default export! `import { Helmet } from 'react-helmet-async'`
 
@@ -72,7 +79,7 @@ const { helmet } = helmetContext;
 // helmet.title.toString() etc…
 ```
 
-## Streams
+## Streams 🌊
 
 This package only works with streaming if your `<head>` data is output outside of `renderToNodeStream()`.
 This is possible if your data hydration method already parses your React tree. Example:
@@ -121,7 +128,7 @@ renderToNodeStream(app)
   .pipe(res);
 ```
 
-## Usage in Jest
+## Usage in Jest 🧪
 While testing in using jest, if there is a need to emulate SSR, the following string is required to have the test behave the way they are expected to.
 
 ```javascript
@@ -130,7 +137,7 @@ import { HelmetProvider } from 'react-helmet-async';
 HelmetProvider.canUseDOM = false;
 ```
 
-## Prioritizing tags for SEO
+## Prioritizing tags for SEO 🎯
 
 It is understood that in some cases for SEO, certain tags should appear earlier in the HEAD. Using the `prioritizeSeoTags` flag on any `<Helmet>` component allows the server render of react-helmet-async to expose a method for prioritizing relevant SEO tags.
 
@@ -177,7 +184,7 @@ Will result in:
 
 A list of prioritized tags and attributes can be found in [constants.ts](./src/constants.ts).
 
-## Usage without Context
+## Usage without Context 🧩
 You can optionally use `<Helmet>` outside a context by manually creating a stateful `HelmetData` instance, and passing that stateful object to each `<Helmet>` instance:
 
 
@@ -203,6 +210,6 @@ const html = renderToString(app);
 const { helmet } = helmetData.context;
 ```
 
-## License
+## License ⚖️
 
 Licensed under the Apache 2.0 License, Copyright 2018 Scott Taylor
