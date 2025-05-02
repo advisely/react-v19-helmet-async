@@ -1,2 +1,6 @@
-lib
-node_modules
+# build output
+lib/
+# test coverage
+coverage/
+# dependencies
+node_modules/
