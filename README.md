@@ -1,4 +1,6 @@
 # react-v19-helmet-async
+**NPM Package**: [react-v19-helmet-async](https://www.npmjs.com/package/react-v19-helmet-async)  
+**GitHub Repo**: [advisely/react-v19-helmet-async](https://github.com/advisely/react-v19-helmet-async)
 
 Forked from [staylor/react-helmet-async](https://github.com/staylor/react-helmet-async) under the Apache-2.0 license by Yassine Boumiza in 2025. Extended compatibility to React v18+ including React v19.0.0 and v19.1.0.
 
