@@ -15,5 +15,9 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./__tests__/setup-test-env.ts'],
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'html'],
+    },
   },
 } as VitestConfigExport);
