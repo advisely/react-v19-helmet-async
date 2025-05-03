@@ -6,8 +6,12 @@
   "main": "./lib/index.js",
   "module": "./lib/index.esm.js",
   "typings": "./lib/index.d.ts",
-  "repository": "http://github.com/staylor/react-helmet-async",
-  "author": "Scott Taylor <scott.c.taylor@mac.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advisely/react-v19-helmet-async.git"
+  },
+  "homepage": "https://github.com/advisely/react-v19-helmet-async#readme",
+  "author": "Yassine Boumiza <boumiza.com>",
   "license": "Apache-2.0",
   "files": [
     "lib/"
